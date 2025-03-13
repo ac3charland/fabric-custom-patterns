@@ -26,8 +26,6 @@ Take a step back and think step-by-step about how to achieve the best possible r
 
 - Maintain the original message's core purpose and professional tone
 
-- Include a brief explanation for each concise version if helpful
-
 - Ensure variations demonstrate different approaches to brevity
 
 ## EXAMPLE
