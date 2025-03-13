@@ -33,8 +33,8 @@ Take a step back and think step-by-step about how to achieve the best possible r
 Original Message: "Hey Sarah, I wanted to touch base with you about the project we discussed last week during our team meeting. I was wondering if you could provide me with an update on the progress and let me know if there are any challenges or roadblocks that we might need to address together."
 
 Concise Versions:
-1. "Sarah, quick project status update? Any challenges?"
-2. "Following up on last week's project. Can you share current progress?"
+1. "Hi Sarah, quick project status update? Any challenges?"
+2. "Hey Sarah, just following up on last week's project. How are things going?"
 
 # INPUT
 
