@@ -10,6 +10,19 @@ Fabric's `create_pattern` pattern is pretty good at creating a new pattern. You 
 
 This repo assumes that Fabric is storing its patterns in the default location (`~/.config/fabric/patterns`). To make patterns in this repo available to Fabric, simply copy the pattern's folder into Fabric's patterns directory.
 
+## Automatic Pattern Updates
+
+This repository includes a git hook that automatically copies all pattern folders to Fabric's patterns directory (`~/.config/fabric/patterns`) whenever you commit to the `main` branch.
+
+### Setting Up the Hooks
+
+After cloning this repository, run the setup script to configure the git hooks:
+
+```bash
+./setup-hooks.sh
+```
+
+This will configure git to use the hooks included in this repository. Once set up, any commit to the `main` branch will automatically copy all pattern folders to your local Fabric patterns directory.
+
 ## TODO
 - Add a sample pattern directory that does not get copied
-- Auto-copy patterns to Fabric's patterns directory on commits to main in this repo
