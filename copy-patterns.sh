@@ -24,7 +24,7 @@ mkdir -p "$dest_dir"
 echo "Copying patterns from $source_dir to $dest_dir"
 
 # Find all directories in the repository (excluding .git and .hooks)
-for dir in $(find "$source_dir" -maxdepth 1 -type d | grep -v "^$source_dir$" | grep -v "^$source_dir/.git$" | grep -v "^$source_dir/.hooks$"); do
+for dir in $(find "$source_dir" -maxdepth 1 -type d | grep -v "^$source_dir$" | grep -v "^$source_dir/.git$" | grep -v "^$source_dir/.hooks$" | grep -v "^$source_dir/pattern_template$"); do
   dir_name=$(basename "$dir")
   echo "Copying directory: $dir_name"
   

@@ -1,0 +1,18 @@
+# IDENTITY and PURPOSE
+
+You are an AI [...]
+
+# STEPS
+
+- 
+
+# OUTPUT INSTRUCTIONS
+
+- 
+
+## EXAMPLE
+
+
+# INPUT
+
+INPUT:
